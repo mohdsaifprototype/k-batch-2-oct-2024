@@ -1,0 +1,22 @@
+body {
+ 
+  font-size: 1.2rem;
+}
+
+h1 {
+  color: purple;
+}
+
+p {
+  color: blue;
+}
+
+button {
+  cursor: pointer;
+  padding: 8px;
+  font-size: 1.2rem;
+}
+
+#hidden {
+  display: none;
+}

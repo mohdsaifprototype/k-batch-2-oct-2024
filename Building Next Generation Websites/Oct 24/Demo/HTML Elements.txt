@@ -1,0 +1,32 @@
+HTML Elements are of two types
+1. Non-empty elements: Where we use start as well as end tag.
+It also contains some content within the element.
+e.g.,
+<p>This is a paragraph</p>
+		
+2. Empty elements: It doesn't have any end tag.
+Neither it contains any content within the element.
+e.g.,
+<br>  or  <br />
+<hr>  or  <hr />
+
+On the basis of meanings Elements are classified into two categories
+1. Semantic elements: Element which has special meaning to the browser.
+heading		<h1>, <h2>, <h3>, <h4>, <h5>, <h6>
+paragraph	<p>
+section		<section>
+article		<article>
+links		<a href="url">Link placeholder</a>
+
+
+2. Non-semantic elements: Elements which doesn't have any special meaning.
+
+division element	-	<div></div>
+span element		-	<span></span>
+
+Apart from this there are some more category of tags.
+
+deprecated tags: The deprecated tags or attributes are those attributes which are replaced by some other attributes
+
+
+obsolete tags:

@@ -1,0 +1,53 @@
+Alt + Tab		Switch tabs
+Win + E			Open file explorer
+Ctrl + C		Copies the content
+Ctrl + V		Pastes the content
+Ctrl + X		Cut the content
+Ctrl + Z		Undo
+Ctrl + Y		Redo
+Win + Shift + S		to take a screen screenshot
+
+=============================================
+Web Design and Development
+
+Web: Collection of networks connected together.
+Computer: A device used to compute information/data
+Network: A network is a medium by which we can share data from one computer to another computer.
+Local network: A network that can be formed using only two or more computer but in a limited range.
+
+  private network: A network which is owned and secured by the host.
+  public network: A network which is open to public.
+
+Global network: A network which can be accessed globally. I is composed of more than one network together
+Internet: It is a technology that holds all the networks on the web together.
+
+
+The Web: Websites, an Webpages
+Webpage: It is a type of document used to share information on the web.
+
+Website: It is a collection of webpages.
+
+===============================================
+Website: To share data, recognitions, entertainment, online video games, blogs, e-commerce(To sell or purchase something), etc.
+Website categories:
+Static: A website where no interaction is needed by the user.
+Dynamic: A website where user can interact and change the element on the website.
+
+Database: To store data from websites etc.
+
+Browser: It is a tool used to browse files and folders
+Web browser: A tool used to browse files and folders on the web.
+Text Editor: A tool/software used to do all kind of stuffs with text. such as, typing, editing of text.
+e.g., Notepad
+
+Frontend: All elements which are visible to the user on a website is built using frontend tools.
+such as, HTML, CSS, JS, Bootstrap etc.
+Backend: All the major processes behind the scene are handled using backend tools.
+PHP, DBMS(MongoDB, MySQL, PostgreSQL, Oracle etc.), Server side management.
+
+Full-stack: Frontend + Backend
+
+Web Technologies:
+Deploying the website on the server (Hostinger, Linode, AWS, Azure).
+
+
