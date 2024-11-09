@@ -1,0 +1,93 @@
+<!DOCTYPE html>					<!-- Declares the document as HTML-5 -->
+<html lang="en">				<!-- html is a root element and lang is an attribute for language -->
+<head>
+  <title>Document Title</title>
+  <style>
+    body { background-color: salmon; }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>Types of lists in HTML</h1>
+  </header>
+  <main>
+    <!-- There are 3 types of list
+         1. Ordered lists
+         2. Unordered list
+         3. Description list
+    -->
+
+    <h2>Ordered list</h2>
+    <h3>List of students:</h3>
+    <ol type="A">				<!-- type supports the following values: 1, a, A, i, I -->
+      <li>Ankush</li>
+      <li>Aman Kumar</li>
+      <li>Abhishek</li>
+      <li>Aman Kanojia</li>
+      <li></li>
+      <li></li>
+      <li></li>
+    </ol>
+
+    <h2>Unordered list</h2>
+    <h3>Shopping list</h3>
+    <ul type="circle">				<!-- type supports the following values: disc, circle, square -->
+      <li>Tomato</li>
+      <li>Sugar</li>
+      <li>Apple</li>
+      <li>Charger</li>
+      <li>Salt</li>
+      <li>Lady finger</li>
+      <li></li>
+    </ul>
+
+    <h2>Description list</h2>
+    <h3>Product list</h3>
+    <dl>
+      <dt>Coffee</dt>				<!-- dt means term -->
+      <dd>A drinking beverage</dd>		<!-- dd means definitions -->
+      <dd>A type of bean</dd>
+      <dt>Milk</dt>
+      <dd>Drug for babies (Amul powder)</dd>
+      <dd>Drinking cow milk</dd>
+    </dl>
+
+    <!-- Nested list: A list that contains another list --> 
+    <h2>Nested list</h2>
+    <h3>Front-end Content</h3>
+    <ol type="I">
+      <li>HTML
+        <ol type="1">
+          <li>Text based element
+            <ul type="disc">
+              <li>Headings</li>
+              <li>Paragraphs</li>
+              <li>Semantical elements</li>
+            </ul>
+          </li>
+          <li>Formatting element</li>
+          <li>Graphic based element based element</li>
+        </ol>
+      </li>
+      <li>CSS</li>
+      <li>JS</li>
+      <li>Bootstrap</li>
+    </ol>
+  </main>
+  <footer>
+    <hr />
+    <h3>Practice Assignment: Do the following tasks</h3>
+    <ol>
+      <li>Create some ordered list containing atleast 5 items</li>
+      <li>Create some unordered list containing atleast 5 items</li>
+      <li>Create some description list containing atleast 5 items</li>
+      <li>Create a nested list from this image <br />
+        <a href="nested-list.jpg">
+          <img src="nested-list.jpg" alt="nested-list" width="80" />
+        </a>
+      </li>
+    </ol>
+  </footer>
+</body>
+</html>
