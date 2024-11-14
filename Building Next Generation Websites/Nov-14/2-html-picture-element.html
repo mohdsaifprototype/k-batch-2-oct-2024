@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>HTML Graphical elements</title>
+</head>
+<body>
+  <header>
+    <h1>Picture element in HMTL</h1>
+  </header>
+
+  <main>
+    <!-- We are going to look at more types of elements that we can use in HTML -->
+    <!-- picture element is used for multiple purpose such as:
+         1. When we have multiple images according to differnet screen width.
+         2. When we have multiple images with differenet file format.
+            e.g., .jpg, .svg, .png, .avif, .webp etc.
+         3. When we have differnet images according to different layout.
+            e.g., landscape or portrait.
+
+         This element is helpful in developing a website with responsiveness.
+    -->
+
+    <!-- 
+    <picture>
+      <source srcset="https://picsum.photos/id/0/360/200" media="(max-width: 400px)" />
+      <source srcset="https://picsum.photos/id/1/540/300" media="(max-width: 600px)" />
+      <source srcset="https://picsum.photos/id/2/600/320" media="(max-width: 720px)" />
+      <source srcset="https://picsum.photos/id/3/800/600" media="(max-width: 1024px)" />
+      <source srcset="https://picsum.photos/id/4/1080/720" media="(max-width: 1400px)" />
+      <img src="https://picsum.photos/id/13/1400/1200" alt="an image from picsum" />
+    </picture>
+    -->
+    <!-- 
+    <picture>
+      <source srcset="https://picsum.photos/id/4/1080/720" media="(min-width: 1400px)" />
+      <source srcset="https://picsum.photos/id/3/800/600" media="(min-width: 1024px)" />
+      <source srcset="https://picsum.photos/id/2/600/320" media="(min-width: 720px)" />
+      <source srcset="https://picsum.photos/id/1/540/300" media="(min-width: 600px)" />
+      <source srcset="https://picsum.photos/id/0/360/200" media="(min-width: 400px)" />
+      <img src="https://picsum.photos/id/13/1400/1200" alt="an image from picsum" />
+    </picture>
+    -->
+
+    <!-- based on orientation -->
+    <!-- 
+    <picture>
+      <source srcset="https://picsum.photos/id/1/360/200" media="(orientation: portrait)" />
+      <img src="https://picsum.photos/id/1/600/360" alt="an image from picsum" />
+    </picture>
+    -->
+
+    <!--based on file support -->
+    <picture>
+      <source srcset="photo.avif" type="image/avif" />
+      <source srcset="photo.webp" type="image/webp" />
+      <img src="photo.jpg" alt="photo" />
+    </picture>
+
+  </main>
+
+  <footer>
+  </footer>
+</body>
+</html>
